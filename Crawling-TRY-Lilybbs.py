@@ -8,6 +8,7 @@ from datetime import datetime
 import json
 import pandas as pd
 
+
 def getHTMLText(url):
     try:
         r=requests.get(url,timeout=30)  #爬取不受限制的网页
@@ -103,7 +104,7 @@ if __name__=="__main__":
     # with sqlite3.connect('news.sqlite3') as db:
     #     df.to_sql('news',con=db)
 
-
+#test for GitHub
 
 
 
